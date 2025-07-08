@@ -1,3 +1,14 @@
 /* TODO: Style the product card container */
+.productCard {
+  margin: 1rem auto;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 8px;
+}
 
 /* TODO: Add special styling for out-of-stock products */
+.outOfStockClass {
+  background: #f8d7da;
+  opacity: 0.6;
+}
